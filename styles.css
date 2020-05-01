@@ -2,6 +2,9 @@
   --mint: #9ad2cf;
   --off-white: #F5F5F5;
   --black: 0, 0, 0;
+  --blue: 93, 188, 210;
+  --yellow: 235, 207, 121;
+  --pink: 253, 204, 180;
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
 }
@@ -65,21 +68,52 @@ h2 {
   margin-top: 0.5rem;
 }
 
+.hero-image {
+  background: url("images/amaury-salas-IhXrWDckZOQ-unsplash.jpg");
+  width: 100%;
+  min-height: 650px;
+  background-size: cover;
+  background-position: center;
+}
+
 article {
   display: none;
 }
 
-.images {
-  margin: 20px;
+.images-list {
+  margin: 20px 0;
   padding: 0;
   list-style: none;
-  column-width: 350px;
-  column-gap: 5px
+  display: flex;
+  overflow: scroll;
 }
 
 .images img {
   width: 100%;
 }
+
+.image figure {
+  margin-right: 0;
+  position: relative;
+}
+
+.image figure:hover .caption {
+  display: flex;
+}
+
+.image .caption {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: rgba(var(--yellow), 0.5);
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
 
 @media (max-width: 768px;) {
   .images {
