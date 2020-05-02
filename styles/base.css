@@ -1,0 +1,47 @@
+:root {
+  --mint: #9ad2cf;
+  --off-white: #F5F5F5;
+  --black: 0, 0, 0;
+  --blue: 93, 188, 210;
+  --yellow: 235, 207, 121;
+  --pink: 253, 204, 180;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 200;
+}
+
+body {
+  background-color: var(--off-white);
+  margin: 0;
+}
+
+p {
+  line-height: 1.5rem;
+}
+
+h3 {
+  font-family: 'Cabin Sketch', serif;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+section {
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+section h3 {
+  border-bottom: 1px solid var(--mint);
+}
+
+section > div {
+  width: 50%;
+}
+
+footer {
+  font-family: 'Cabin Sketch', sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  text-align: center;
+}
