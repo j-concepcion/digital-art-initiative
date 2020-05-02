@@ -7,6 +7,7 @@
   --pink: 253, 204, 180;
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
+  font-weight: 200;
 }
 
 body {
@@ -68,12 +69,35 @@ h2 {
   margin-top: 0.5rem;
 }
 
+h3 {
+  font-family: 'Cabin Sketch', serif;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+section {
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+section h3 {
+  border-bottom: 1px solid var(--mint);
+}
+
+
 .hero-image {
-  background: url("images/amaury-salas-IhXrWDckZOQ-unsplash.jpg");
+  margin: 0;
+  background: url("images/claudio-schwarz-purzlbaum-k39RGHmLoV8-unsplash\ \(1\).jpg");
   width: 100%;
   min-height: 650px;
   background-size: cover;
   background-position: center;
+}
+
+.about-text,
+.work-display {
+  width: 50%;
 }
 
 article {
@@ -81,24 +105,25 @@ article {
 }
 
 .images-list {
-  margin: 20px 0;
+  margin: 0;
   padding: 0;
   list-style: none;
   display: flex;
   overflow: scroll;
 }
 
-.images img {
-  width: 100%;
+.image img {
+  max-width: 400px;
 }
 
 .image figure {
-  margin-right: 0;
+  margin: 0 15px;
   position: relative;
 }
 
 .image figure:hover .caption {
   display: flex;
+  text-align: center;
 }
 
 .image .caption {
@@ -114,6 +139,61 @@ article {
   align-items: center;
 }
 
+.work-display {
+  position: relative;
+}
+
+.work-display:hover .scroll-indicator {
+  display: block;
+}
+
+.scroll-indicator {
+  display: none;
+  position: absolute;
+  top: 50%;
+  margin: 0;
+  right: -25px;
+  color: rgba(var(--black),0.5);
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact h3 {
+  border: none;
+}
+
+.contact form {
+  width: 850px;
+  padding: 50px;
+  background: rgba(var(--blue), 0.3);
+  box-sizing: border-box;
+}
+
+.contact form abbr {
+  color: rgba(var(--pink));
+  text-decoration: none;
+}
+
+.contact form label {
+  font-size: 1.2rem;
+}
+
+.contact form input,
+.contact form textarea {
+  padding: 5px;
+  width: 100%;
+}
+
+footer {
+  font-family: 'Cabin Sketch', sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  text-align: center;
+}
 
 @media (max-width: 768px;) {
   .images {
