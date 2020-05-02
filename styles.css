@@ -15,6 +15,10 @@ body {
   margin: 0;
 }
 
+p {
+  line-height: 1.5rem;
+}
+
 .main-app {
   background-color: var(--off-white);
   color: var(--black);
@@ -85,7 +89,7 @@ section h3 {
   border-bottom: 1px solid var(--mint);
 }
 
-section div {
+section > div {
   width: 50%;
 }
 
@@ -166,6 +170,23 @@ article {
   color: rgba(var(--black),0.5);
 }
 
+.beneficiaries-list {
+  column-count: 2;
+}
+
+.beneficiary-name {
+  font-weight: 400;
+}
+
+.beneficiary-desc {
+  margin-right: 40px;
+}
+
+.beneficiary-desc a {
+  text-decoration: none;
+  color: rgba(var(--black), 1);
+}
+
 .contact {
   display: flex;
   align-items: center;
@@ -189,7 +210,7 @@ article {
 }
 
 .contact form label {
-  font-size: 1.2rem;
+  font-weight: 400;
 }
 
 .contact form input,
