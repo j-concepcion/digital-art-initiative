@@ -85,6 +85,10 @@ section h3 {
   border-bottom: 1px solid var(--mint);
 }
 
+section div {
+  width: 50%;
+}
+
 
 .hero-image {
   margin: 0;
@@ -93,11 +97,17 @@ section h3 {
   min-height: 650px;
   background-size: cover;
   background-position: center;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
 }
 
-.about-text,
-.work-display {
-  width: 50%;
+.hero-image-credit {
+  opacity: 0.3;
+}
+
+.hero-image-credit:hover {
+  opacity: 1;
 }
 
 article {
