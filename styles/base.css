@@ -16,28 +16,30 @@ body {
 }
 
 p {
-  line-height: 1.5rem;
+  font-size: 0.9rem;
+  line-height: 1.3rem;
 }
 
 h3 {
   font-family: 'Cabin Sketch', serif;
   font-weight: 400;
   text-transform: uppercase;
-  font-size: 2rem;
+  font-size: 1.3rem;
+  margin: 0.8rem 0;
 }
 
 section {
-  margin: 50px;
-  display: flex;
-  justify-content: center;
+  background-color: var(--off-white);
+  margin: auto;
+  width: 750px;
+  padding: 20px 40px;
+  left: 0;
+  right: 0;
+  box-sizing: content-box;
 }
 
 section h3 {
   border-bottom: 1px solid var(--mint);
-}
-
-section > div {
-  width: 50%;
 }
 
 ul {

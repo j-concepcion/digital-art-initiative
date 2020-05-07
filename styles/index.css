@@ -8,7 +8,7 @@
   margin: 0;
   background: url("../images/claudio-schwarz-purzlbaum-k39RGHmLoV8-unsplash\ \(1\).jpg");
   width: 100%;
-  min-height: 650px;
+  min-height: 700px;
   background-size: cover;
   background-position: center;
   display: flex;
@@ -73,22 +73,6 @@
   color: rgba(var(--black),0.5);
 }
 
-.beneficiaries-list {
-  column-count: 2;
-}
-
-.beneficiary-name {
-  font-weight: 400;
-}
-
-.beneficiary-desc {
-  margin-right: 40px;
-}
-
-.beneficiary-desc a {
-  text-decoration: none;
-  color: rgba(var(--black), 1);
-}
 
 .contact {
   display: flex;

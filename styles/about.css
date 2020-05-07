@@ -1,0 +1,40 @@
+section {
+    background-color: rgba(var(--blue), 0.2);
+}
+
+.join {
+    background-color: var(--off-white);
+    text-align: center;
+}
+
+.join p {
+    font-size: 25px;
+}
+
+.join .cta {
+    background-color: rgba(var(--yellow));
+    line-height: 1rem;
+    font-size: 25px;
+    font-family: 'Montserrat';
+    height: 1rem;
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.beneficiaries-list {
+  column-count: 2;
+}
+
+.beneficiary-name {
+  font-weight: 400;
+}
+
+.beneficiary-desc {
+  margin-right: 40px;
+}
+
+.beneficiary-desc a {
+  text-decoration: none;
+  color: rgba(var(--black), 1);
+}

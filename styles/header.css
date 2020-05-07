@@ -1,5 +1,9 @@
 .main-header {
+  background-color: var(--off-white);
   text-align: center;
+  position: sticky;
+  top: 0;
+  margin-bottom: 10px;
 }
 
 .main-nav {
@@ -16,11 +20,29 @@
 
 .link {
   color: var(--black);
-  text-decoration-color: rgba(var(--black), 0.3)
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 0.8rem;
+  text-decoration-style: solid;
+  text-decoration-color: rgba(var(--pink), 0.4);
+  padding: 4px;
+}
+
+.link:hover {
+  border: none;
+  background-color: rgba(var(--pink), 0.1);
+  text-decoration-style: solid;
+  text-decoration-color: rgba(var(--pink), 0.4);
+  border-radius: 3px;
+}
+
+.link:active {
+  background-color: rgba(var(--blue), 0.1);
+  text-decoration-color: rgba(var(--blue), 0.4);
 }
 
 .title {
-  margin: 3rem 0;
+  margin: 1.5rem 0;
 }
 
 h1 {
