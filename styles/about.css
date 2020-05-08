@@ -1,9 +1,9 @@
 section {
-    background-color: rgba(var(--blue), 0.2);
+    background-color: var(--off-white);
 }
 
 .join {
-    background-color: var(--off-white);
+    background-color: rgba(var(--blue), 0.2);
     text-align: center;
 }
 

@@ -10,9 +10,10 @@
   font-weight: 200;
 }
 
-body {
+html, body {
   background-color: var(--off-white);
   margin: 0;
+  height: 100%;
 }
 
 p {
